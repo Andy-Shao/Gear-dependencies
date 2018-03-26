@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.github.Andy-Shao</groupId>
+    <artifactId>Gear-Maven-Manager</artifactId>
+    <!--<version>4.0-SNAPSHOT</version>-->
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <name>Gear</name>
+    <description>Enhance and formating the coding of JDK</description>
+    <url>https://github.com/Andy-Shao/Gear</url>
+    <inceptionYear>2018</inceptionYear>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Andy-Shao</name>
+            <email>hj13035952619@126.com</email>
+            <organization>github</organization>
+            <organizationUrl>https://github.com/Andy-Shao</organizationUrl>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:https://github.com/Andy-Shao/Gear-dependencies.git</connection>
+        <developerConnection>scm:git:https://github.com/Andy-Shao/Gear-dependencies.git</developerConnection>
+        <url>https://github.com/Andy-Shao/Gear-dependencies.git</url>
+    </scm>
+    <issueManagement>
+        <system>jira</system>
+        <url>https://issues.sonatype.org/browse/OSSRH-10785</url>
+    </issueManagement>
+
+    <properties>
+        <gear.version>3.2.11-SNAPSHOT</gear.version>
+    </properties>
+    
+    <dependencyManagement>
+    		<dependencies>
+    			<dependency>
+    				<groupId>com.github.Andy-Shao</groupId>
+    				<artifactId>Gear</artifactId>
+    				<version>${gear.version}</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>com.github.Andy-Shao</groupId>
+    				<artifactId>GearEE</artifactId>
+    				<version>${gear.version}</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>com.github.Andy-Shao</groupId>
+    				<artifactId>GearEE-Spring</artifactId>
+    				<version>${gear.version}</version>
+    			</dependency>
+                <dependency>
+                    <groupId>com.github.Andy-Shao</groupId>
+                    <artifactId>GearEE-ZK</artifactId>
+                    <version>${gear.version}</version>
+                </dependency>
+                <dependency>
+                    <groupId>com.github.Andy-Shao</groupId>
+                    <artifactId>GearEE-Redis</artifactId>
+                    <version>${gear.version}</version>
+                </dependency>
+    		</dependencies>
+    </dependencyManagement>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
+</project>
