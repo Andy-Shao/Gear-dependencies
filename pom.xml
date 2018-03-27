@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
     
     <groupId>com.github.Andy-Shao</groupId>
-    <artifactId>Gear-Maven-Manager</artifactId>
+    <artifactId>Gear-dependencies</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
     <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>Gear</name>
+    <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
     <url>https://github.com/Andy-Shao/Gear</url>
     <inceptionYear>2018</inceptionYear>
@@ -39,6 +39,10 @@
 
     <properties>
         <gear.version>3.2.11-SNAPSHOT</gear.version>
+        <gearee.version>3.2.10.RELEASE</gearee.version>
+        <gearee.spring.version>3.2.10.RELEASE</gearee.spring.version>
+        <gearee.zk.version>0.0.1-SNAPSHOT</gearee.zk.version>
+        <gearee.redis.version>0.0.1-SNAPSHOT</gearee.redis.version>
     </properties>
     
     <dependencyManagement>
@@ -51,22 +55,22 @@
     			<dependency>
     				<groupId>com.github.Andy-Shao</groupId>
     				<artifactId>GearEE</artifactId>
-    				<version>${gear.version}</version>
+    				<version>${gearee.version}</version>
     			</dependency>
     			<dependency>
     				<groupId>com.github.Andy-Shao</groupId>
     				<artifactId>GearEE-Spring</artifactId>
-    				<version>${gear.version}</version>
+    				<version>${gearee.spring.version}</version>
     			</dependency>
                 <dependency>
                     <groupId>com.github.Andy-Shao</groupId>
                     <artifactId>GearEE-ZK</artifactId>
-                    <version>${gear.version}</version>
+                    <version>${gearee.zk.version}</version>
                 </dependency>
                 <dependency>
                     <groupId>com.github.Andy-Shao</groupId>
                     <artifactId>GearEE-Redis</artifactId>
-                    <version>${gear.version}</version>
+                    <version>${gearee.redis.version}</version>
                 </dependency>
     		</dependencies>
     </dependencyManagement>
