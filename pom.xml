@@ -39,8 +39,8 @@
 
     <properties>
         <gear.version>3.2.11-SNAPSHOT</gear.version>
-        <gearee.version>3.2.10.RELEASE</gearee.version>
-        <gearee.spring.version>3.2.10.RELEASE</gearee.spring.version>
+        <gearee.version>3.2.11-SNAPSHOT</gearee.version>
+        <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>
         <gearee.zk.version>0.0.1-SNAPSHOT</gearee.zk.version>
         <gearee.redis.version>0.0.1-SNAPSHOT</gearee.redis.version>
     </properties>
