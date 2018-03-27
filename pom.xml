@@ -10,7 +10,7 @@
     <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
-    <url>https://github.com/Andy-Shao/Gear</url>
+    <url>https://github.com/Andy-Shao/Gear-dependencies</url>
     <inceptionYear>2018</inceptionYear>
     <licenses>
         <license>
