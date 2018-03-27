@@ -1,6 +1,8 @@
-<h1>Gear version auto-manage for maven</h1>
+Gear version auto-manage for maven
+==================================
 
-<h2>How to use it</h2>
+How to use it
+-------------
 ```
 <dependencyManagement>
   <dependencies>
