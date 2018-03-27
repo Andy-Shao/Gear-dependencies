@@ -3,7 +3,7 @@ Gear version auto-manage for maven
 
 How to use it
 -------------
-```
+```xml
 <dependencyManagement>
   <dependencies>
     <dependency>
