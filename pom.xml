@@ -46,33 +46,33 @@
     </properties>
     
     <dependencyManagement>
-    		<dependencies>
-    			<dependency>
-    				<groupId>com.github.Andy-Shao</groupId>
-    				<artifactId>Gear</artifactId>
-    				<version>${gear.version}</version>
-    			</dependency>
-    			<dependency>
-    				<groupId>com.github.Andy-Shao</groupId>
-    				<artifactId>GearEE</artifactId>
-    				<version>${gearee.version}</version>
-    			</dependency>
-    			<dependency>
-    				<groupId>com.github.Andy-Shao</groupId>
-    				<artifactId>GearEE-Spring</artifactId>
-    				<version>${gearee.spring.version}</version>
-    			</dependency>
-                <dependency>
-                    <groupId>com.github.Andy-Shao</groupId>
-                    <artifactId>GearEE-ZK</artifactId>
-                    <version>${gearee.zk.version}</version>
-                </dependency>
-                <dependency>
-                    <groupId>com.github.Andy-Shao</groupId>
-                    <artifactId>GearEE-Redis</artifactId>
-                    <version>${gearee.redis.version}</version>
-                </dependency>
-    		</dependencies>
+        <dependencies>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>Gear</artifactId>
+                <version>${gear.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE</artifactId>
+                <version>${gearee.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-Spring</artifactId>
+                <version>${gearee.spring.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-ZK</artifactId>
+                <version>${gearee.zk.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-Redis</artifactId>
+                <version>${gearee.redis.version}</version>
+            </dependency>
+        </dependencies>
     </dependencyManagement>
 
     <distributionManagement>
