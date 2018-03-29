@@ -6,7 +6,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-dependencies</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
@@ -39,8 +39,8 @@
 
     <properties>
         <gear.version>3.2.11-SNAPSHOT</gear.version>
-        <gearee.version>3.2.11-SNAPSHOT</gearee.version>
-        <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>
+        <!--<gearee.version>3.2.11-SNAPSHOT</gearee.version>
+        <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
         <gearee.zk.version>0.0.1-SNAPSHOT</gearee.zk.version>
         <gearee.redis.version>0.0.1-SNAPSHOT</gearee.redis.version>
     </properties>
@@ -52,7 +52,7 @@
                 <artifactId>Gear</artifactId>
                 <version>${gear.version}</version>
             </dependency>
-            <dependency>
+            <!--<dependency>
                 <groupId>com.github.Andy-Shao</groupId>
                 <artifactId>GearEE</artifactId>
                 <version>${gearee.version}</version>
@@ -61,7 +61,7 @@
                 <groupId>com.github.Andy-Shao</groupId>
                 <artifactId>GearEE-Spring</artifactId>
                 <version>${gearee.spring.version}</version>
-            </dependency>
+            </dependency>-->
             <dependency>
                 <groupId>com.github.Andy-Shao</groupId>
                 <artifactId>GearEE-ZK</artifactId>

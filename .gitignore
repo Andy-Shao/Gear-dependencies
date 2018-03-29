@@ -1,5 +1,5 @@
 .idea
-.Gear-dependencies.iml
+**/*.iml
 .classpath
 .settings
 .project
