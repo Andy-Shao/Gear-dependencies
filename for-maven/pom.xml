@@ -6,7 +6,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-dependencies</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>1.0.0.RELEASE</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
@@ -38,11 +38,11 @@
     </issueManagement>
 
     <properties>
-        <gear.version>3.2.11.RELEASE</gear.version>
+        <gear.version>3.2.12-SNAPSHOT</gear.version>
         <!--<gearee.version>3.2.11-SNAPSHOT</gearee.version>
         <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
-        <gearee.zk.version>0.0.1.RELEASE</gearee.zk.version>
-        <gearee.redis.version>0.0.1.RELEASE</gearee.redis.version>
+        <gearee.zk.version>0.0.2-SNAPSHOT</gearee.zk.version>
+        <gearee.redis.version>0.0.2-SNAPSHOT</gearee.redis.version>
     </properties>
     
     <dependencyManagement>
