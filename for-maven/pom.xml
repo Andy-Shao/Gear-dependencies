@@ -7,7 +7,7 @@
     <artifactId>Gear-dependencies</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
     <version>1.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
     <url>https://github.com/Andy-Shao/Gear-dependencies</url>
