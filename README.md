@@ -21,3 +21,6 @@ It can manage Gear version automaticly. You will do not worry about the Gear ver
   </dependencies>
 </dependencyManagement>
 ```
+
+### For Gradle
+You should use <a href="https://github.com/spring-gradle-plugins/dependency-management-plugin">io.spring.dependency-management</a> plugin.
