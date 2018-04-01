@@ -8,6 +8,7 @@ If you use multi-Gear jar in your system, use this pom which can avoid mix-versi
 
 How to use it
 -------------
+### Fro Maven
 Adding these in your maven pom.xml file
 It can manage Gear version automaticly. You will do not worry about the Gear version control in the projection.
 ```xml
