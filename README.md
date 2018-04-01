@@ -23,4 +23,24 @@ It can manage Gear version automaticly. You will do not worry about the Gear ver
 ```
 
 ### For Gradle
-You should use <a href="https://github.com/spring-gradle-plugins/dependency-management-plugin">io.spring.dependency-management</a> plugin.
+You should use <a href="https://github.com/spring-gradle-plugins/dependency-management-plugin">io.spring.dependency-management</a> plugin. The configure demo is that:
+```groovy
+plugins {
+  id 'io.spring.dependency-management' version '1.0.4.RELEASE'
+  id 'java'
+}
+
+repositories {
+  mavenCentral()
+}
+
+dependencyManagement {
+  imports {
+    mavenBom 'com.github.Andy-Shao:Gear-dependencies:1.0.1.RELEASE'
+  }
+}
+
+dependencies {
+  compile 'com.github.Andy-Shao:Gear'
+}
+```
