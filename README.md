@@ -1,4 +1,4 @@
-# Gear version auto-manage for maven
+# Gear version auto-manage
 
 ## Why you need it?
 After Mar 27, 2018. All of Gear release was definned by a kind of version of Gear-dependencies.
