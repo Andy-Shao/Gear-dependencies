@@ -6,7 +6,7 @@ If you use multi-Gear jar in your system, use this pom which can avoid mix-versi
 
 ## How to use it
 ### For Maven
-Adding these in your maven pom.xml file
+Adding these in your maven <b>pom.xml</b> file
 It can manage Gear version automaticly. You will do not worry about the Gear version control in the projection.
 ```xml
 <dependencyManagement>
@@ -23,7 +23,7 @@ It can manage Gear version automaticly. You will do not worry about the Gear ver
 ```
 
 ### For Gradle
-You should use <a href="https://github.com/spring-gradle-plugins/dependency-management-plugin">io.spring.dependency-management</a> plugin. The basic build.gradle demo is that:
+You should use <a href="https://github.com/spring-gradle-plugins/dependency-management-plugin">io.spring.dependency-management</a> plugin. The basic <b>build.gradle</b> demo is that:
 ```groovy
 plugins {
   id 'io.spring.dependency-management' version '1.0.4.RELEASE'
