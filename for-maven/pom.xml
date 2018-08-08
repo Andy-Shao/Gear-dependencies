@@ -43,6 +43,8 @@
         <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
         <gearee.zk.version>0.0.2-SNAPSHOT</gearee.zk.version>
         <gearee.redis.version>0.0.2-SNAPSHOT</gearee.redis.version>
+        <gearee.neo4j.version>0.0.1-SNAPSHOT</gearee.neo4j.version>
+        <gearee.neo4j.spring.version>0.0.1-SNAPSHOT</gearee.neo4j.spring.version>
         <java.version>1.8</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
@@ -73,6 +75,16 @@
                 <groupId>com.github.Andy-Shao</groupId>
                 <artifactId>GearEE-Redis</artifactId>
                 <version>${gearee.redis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-Neo4j</artifactId>
+                <version>${gearee.neo4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-Neo4j-Spring</artifactId>
+                <version>${gearee.neo4j.spring.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
