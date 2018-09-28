@@ -6,7 +6,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-dependencies</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>1.1.4-SNAPSHOT</version>
+    <version>1.1.4.RELEASE</version>
     <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
@@ -38,13 +38,13 @@
     </issueManagement>
 
     <properties>
-        <gear.version>3.3.3-SNAPSHOT</gear.version>
+        <gear.version>3.3.3.RELEASE</gear.version>
         <!--<gearee.version>3.2.11-SNAPSHOT</gearee.version>
         <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
-        <gearee.zk.version>0.0.3-SNAPSHOT</gearee.zk.version>
-        <gearee.redis.version>0.0.3-SNAPSHOT</gearee.redis.version>
-        <gearee.neo4j.version>0.0.5-SNAPSHOT</gearee.neo4j.version>
-        <gearee.neo4j.spring.version>0.0.5-SNAPSHOT</gearee.neo4j.spring.version>
+        <gearee.zk.version>0.0.2.RELEASE</gearee.zk.version>
+        <gearee.redis.version>0.0.2.RELEASE</gearee.redis.version>
+        <gearee.neo4j.version>0.0.5.RELEASE</gearee.neo4j.version>
+        <gearee.neo4j.spring.version>0.0.5.RELEASE</gearee.neo4j.spring.version>
         <java.version>1.8</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
