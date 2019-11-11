@@ -44,7 +44,7 @@
         <gearee.neo4j.version>0.0.9-SNAPSHOT</gearee.neo4j.version>
         <gearee.neo4j.spring.version>0.1.2-SNAPSHOT</gearee.neo4j.spring.version>
         <gearee.neo4j.spring.boot.autoconfigure.version>0.1.2-SNAPSHOT</gearee.neo4j.spring.boot.autoconfigure.version>
-        <gearee.neo4j.spring.boot.starter.version>0.1.2-SNAPSHOT</gearee.neo4j.spring.boot.starter.version>
+        <gearee.neo4j.spring.boot.starter.version>1.2.2-SNAPSHOT</gearee.neo4j.spring.boot.starter.version>
         <java.version>1.8</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
