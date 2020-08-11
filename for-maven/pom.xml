@@ -45,7 +45,7 @@
         <gearee.neo4j.spring.version>0.1.2.RELEASE</gearee.neo4j.spring.version>
         <gearee.neo4j.spring.boot.autoconfigure.version>0.1.2.RELEASE</gearee.neo4j.spring.boot.autoconfigure.version>
         <gearee.neo4j.spring.boot.starter.version>1.2.2.RELEASE</gearee.neo4j.spring.boot.starter.version>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
     
