@@ -39,7 +39,7 @@
         <gear.version>4.0.0-SNAPSHOT</gear.version>
         <!--<gearee.version>3.2.11-SNAPSHOT</gearee.version>
         <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
-        <gearee.zk.version>0.0.4-SNAPSHOT</gearee.zk.version>
+        <gearee.zk.version>1.0.0-SNAPSHOT</gearee.zk.version>
         <gearee.redis.version>1.0.0-SNAPSHOT</gearee.redis.version>
         <gearee.neo4j.version>0.0.9.RELEASE</gearee.neo4j.version>
         <gearee.neo4j.spring.version>0.1.2.RELEASE</gearee.neo4j.spring.version>
