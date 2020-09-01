@@ -83,17 +83,17 @@
             </dependency>
             <dependency>
                 <groupId>com.github.Andy-Shao</groupId>
-                <artifactId>GearEE-Neo4j-Spring</artifactId>
+                <artifactId>GearEE-Neo4j-spring</artifactId>
                 <version>${gearee.neo4j.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.Andy-Shao</groupId>
-                <artifactId>GearEE-Neo4j-Spring-boot-autoconfigure</artifactId>
+                <artifactId>GearEE-Neo4j-spring-boot-autoconfigure</artifactId>
                 <version>${gearee.neo4j.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.github.Andy-Shao</groupId>
-                <artifactId>GearEE-Neo4j-Spring-boot-starter</artifactId>
+                <artifactId>GearEE-Neo4j-spring-boot-starter</artifactId>
                 <version>${gearee.neo4j.version}</version>
             </dependency>
         </dependencies>
