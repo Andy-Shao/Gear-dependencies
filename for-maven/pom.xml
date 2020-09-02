@@ -4,7 +4,7 @@
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-dependencies</artifactId>
     <!--<version>4.0-SNAPSHOT</version>-->
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.0.RELEASE</version>
     <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
@@ -36,15 +36,12 @@
     </issueManagement>
 
     <properties>
-        <gear.version>4.0.0-SNAPSHOT</gear.version>
+        <gear.version>4.0.0.RELEASE</gear.version>
         <!--<gearee.version>3.2.11-SNAPSHOT</gearee.version>
         <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
-        <gearee.zk.version>0.0.4-SNAPSHOT</gearee.zk.version>
-        <gearee.redis.version>1.0.0-SNAPSHOT</gearee.redis.version>
-        <gearee.neo4j.version>2.0.0-SNAPSHOT</gearee.neo4j.version>
-<!--        <gearee.neo4j.spring.version>0.1.2.RELEASE</gearee.neo4j.spring.version>-->
-<!--        <gearee.neo4j.spring.boot.autoconfigure.version>0.1.2.RELEASE</gearee.neo4j.spring.boot.autoconfigure.version>-->
-<!--        <gearee.neo4j.spring.boot.starter.version>1.2.2.RELEASE</gearee.neo4j.spring.boot.starter.version>-->
+        <gearee.zk.version>0.0.4.RELEASE</gearee.zk.version>
+        <gearee.redis.version>1.0.0.RELEASE</gearee.redis.version>
+        <gearee.neo4j.version>2.0.0.RELEASE</gearee.neo4j.version>
         <java.version>11</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
