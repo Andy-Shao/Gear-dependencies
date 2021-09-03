@@ -80,7 +80,7 @@
             </dependency>
             <dependency>
                 <groupId>com.github.Andy-Shao</groupId>
-                <artifactId>GearEE-Neo4j-spring</artifactId>
+                <artifactId>GearEE-Neo4j-Spring</artifactId>
                 <version>${gearee.neo4j.version}</version>
             </dependency>
             <dependency>
