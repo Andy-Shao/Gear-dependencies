@@ -3,8 +3,8 @@
     
     <groupId>com.github.Andy-Shao</groupId>
     <artifactId>Gear-dependencies</artifactId>
-    <!--<version>4.0-SNAPSHOT</version>-->
-    <version>2.0.5.RELEASE</version>
+    <!--<version>4.0-SNAPSHOT/4.0.RELEASE</version>-->
+    <version>2.0.6-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Gear-dependencies</name>
     <description>Enhance and formating the coding of JDK</description>
@@ -42,6 +42,7 @@
         <gearee.zk.version>0.0.4.RELEASE</gearee.zk.version>
         <gearee.redis.version>1.0.0.RELEASE</gearee.redis.version>
         <gearee.neo4j.version>2.0.3.RELEASE</gearee.neo4j.version>
+        <gearee.mybatis.version>0.0.1-SNAPSHOT</gearee.mybatis.version>
         <java.version>11</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
@@ -92,6 +93,16 @@
                 <groupId>com.github.Andy-Shao</groupId>
                 <artifactId>GearEE-Neo4j-spring-boot-starter</artifactId>
                 <version>${gearee.neo4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-Mybatis-Core</artifactId>
+                <version>${gearee.mybatis.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.github.Andy-Shao</groupId>
+                <artifactId>GearEE-Mybatis-Spring</artifactId>
+                <version>${gearee.mybatis.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
