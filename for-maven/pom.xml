@@ -43,7 +43,7 @@
         <gearee.redis.version>1.0.0.RELEASE</gearee.redis.version>
         <gearee.neo4j.version>2.0.3.RELEASE</gearee.neo4j.version>
         <gearee.mybatis.version>0.1.0.RELEASE</gearee.mybatis.version>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
     
