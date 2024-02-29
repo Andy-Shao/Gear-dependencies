@@ -37,12 +37,10 @@
 
     <properties>
         <gear.version>5.0.0.RELEASE</gear.version>
-        <!--<gearee.version>3.2.11-SNAPSHOT</gearee.version>
-        <gearee.spring.version>3.2.11-SNAPSHOT</gearee.spring.version>-->
-        <gearee.zk.version>0.0.4.RELEASE</gearee.zk.version>
-        <gearee.redis.version>1.0.0.RELEASE</gearee.redis.version>
-        <gearee.neo4j.version>2.0.3.RELEASE</gearee.neo4j.version>
-        <gearee.mybatis.version>0.1.0.RELEASE</gearee.mybatis.version>
+        <gearee.zk.version>1.0.0.RELEASE</gearee.zk.version>
+        <gearee.redis.version>2.0.0.RELEASE</gearee.redis.version>
+        <gearee.neo4j.version>3.0.0.RELEASE</gearee.neo4j.version>
+        <gearee.mybatis.version>1.0.0.RELEASE</gearee.mybatis.version>
         <java.version>17</java.version>
         <gear.build.sourceEncoding>UTF-8</gear.build.sourceEncoding>
     </properties>
@@ -54,16 +52,6 @@
                 <artifactId>Gear</artifactId>
                 <version>${gear.version}</version>
             </dependency>
-            <!--<dependency>
-                <groupId>com.github.Andy-Shao</groupId>
-                <artifactId>GearEE</artifactId>
-                <version>${gearee.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.github.Andy-Shao</groupId>
-                <artifactId>GearEE-Spring</artifactId>
-                <version>${gearee.spring.version}</version>
-            </dependency>-->
             <dependency>
                 <groupId>com.github.Andy-Shao</groupId>
                 <artifactId>GearEE-ZK</artifactId>
